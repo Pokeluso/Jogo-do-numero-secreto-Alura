@@ -18,7 +18,7 @@ function textoNatela(tag,texto){
 }
 
 function mensagemInicio(){
-    textoNatela('h1','Jogo do secret number');
+    textoNatela('h1','Jogo do numero secreto');
     textoNatela('p', 'escolha um numero de 1 a 10');
 }
 
@@ -75,4 +75,5 @@ function reiniciarJogo(){
     numeroScreto = gerarNumeroaleatorio();
     console.log(numeroScreto)
     tentativas = 1;
+
 }
